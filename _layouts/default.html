@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ site.url }}/css/main.css">
+		<title>{% if page.title %}{{ page.title }}{% endif %}</title>
+	</head>
+	<body>
+	</body>
+    <header>
+        <a href="http://www.adobe.com/" target="_blank" class="logo">Adobe</a>
+        <div class="wrapper">
+            <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+        </div>
+    </header>
+	<div id="content" class="wrapper">
+		{{ content }}
+	</div>
+</html>
